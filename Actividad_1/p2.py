@@ -10,7 +10,7 @@ def open_file(file_name, path="", mode="r"):
 
 files = [f for f in listdir(files_path) if isfile(join(files_path, f))]
 
-log_file = open_file("al02859552_" + datetime.now().strftime("%d-%m-%Y_%H:%M:%S"), mode="w+")
+log_file = open_file("al02859552_" + datetime.now().strftime("%d-%m-%Y_%H:%M:%S") + ".txt", mode="w+")
 
 global_timer = 0
 execution_time = time.time()
