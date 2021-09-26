@@ -1,0 +1,13 @@
+perro
+gato
+zebra
+zebra
+gato
+hamster
+leon
+ballena
+ardilla
+ballena
+leon
+ardilla
+ardilla
