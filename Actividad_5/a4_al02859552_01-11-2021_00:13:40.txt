@@ -1,0 +1,6 @@
+/Users/adrianrangelsuarez/GitHub/ingeneria_software/Actividad_5/simple.html -> 0.002089977264404297
+/Users/adrianrangelsuarez/GitHub/ingeneria_software/Actividad_5/medium.html -> 0.005422115325927734
+/Users/adrianrangelsuarez/GitHub/ingeneria_software/Actividad_5/hard.html -> 0.0028510093688964844
+/Users/adrianrangelsuarez/GitHub/ingeneria_software/Actividad_5/049.html -> 0.0068051815032958984
+Time to eliminate all HTML tags and order words: 0.017168283462524414 seconds.
+Time of execution: 0.018519163131713867 seconds.
