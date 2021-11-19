@@ -1,0 +1,3 @@
+tu palabra fue encontrado en prueba1.txt
+tu palabra fue encontrado en prueba2.txt
+tu palabra fue encontrado en prueba3.txt
