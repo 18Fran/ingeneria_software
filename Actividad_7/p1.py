@@ -91,7 +91,7 @@ def compare_and_append_dictionaries(token_dict: dict):
 def sort_dict(dictionary: dict):
     return dict(sorted(dictionary.items()))
 
-files = ["004.html", "009.html", "412.html", "444.html"]
+files = [f for f in listdir(FILES_PATH) if isfile(join(FILES_PATH, f))]
 
 log_file = open_file("a7_al02859552_" + datetime.now().strftime("%d-%m-%Y_%H:%M:%S") + ".txt", mode="w+")
 
@@ -121,10 +121,10 @@ posting_file = open_file("posting.txt", mode="w+")
 before = 0
 for token in processed_tokens.keys():
     print(token, " : ", processed_tokens[token])
-    tokenized_file.write(token + " | " + str(processed_tokens[token][1]) + " | " + str(before) + "\n")
+    tokenized_file.write(token + "|" + str(processed_tokens[token][1]) + "|" + str(before) + "\n")
     before += processed_tokens[token][1]
     for ftoken in processed_tokens[token][2].keys():
-        posting_file.write(ftoken + " | " + str(processed_tokens[token][2][ftoken]) + "\n")
+        posting_file.write(ftoken + "|" + str(processed_tokens[token][2][ftoken]) + "\n")
 
 tokenized_file.close()
 posting_file.close()
