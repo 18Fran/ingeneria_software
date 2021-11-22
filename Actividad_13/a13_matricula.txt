@@ -1,0 +1,36 @@
+Busqueda realizada: a
+349.html
+351.html
+364.html
+373.html
+338.html
+346.html
+370.html
+360.html
+372.html
+374.html
+La ejecucion del programa fue: 2.5586304664611816
+Busqueda realizada: radio
+315.html
+336.html
+376.html
+359.html
+366.html
+346.html
+364.html
+345.html
+340.html
+377.html
+La ejecucion del programa fue: 6.2517991065979
+Busqueda realizada: zzzzzzz
+340.html
+356.html
+376.html
+360.html
+337.html
+336.html
+361.html
+377.html
+357.html
+341.html
+La ejecucion del programa fue: 8.256567001342773
