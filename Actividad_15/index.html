@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+    
+            function search_for_this(value) {
+                write_to_file(value);
+                var result = document.getElementById('result');
+                result.innerHTML = "";
+                for (let i = 0; i < 10; i++) {
+                    result.innerHTML += "<p>" + value + "</p>";
+                }
+            }
+    
+            function write_to_file(text) {
+                
+            }
+        </script>
+    </head>
+    
+    <body>
+        <h1>Motor de Búsqueda</h1>
+        <p for="search-for">¿Qué deseas buscar?</p>
+        <input type="search" id="search-for" name="search-for" placeholder="Buscar por...">
+        <button onclick="return search_for_this(document.getElementById('search-for').value)">Buscar</button>
+        <div id="result">
+        </div>
+    </body>
+</html>
+<head>
+    <script>
+        const fsLibrary = require("fs");
+
+        function search_for_this(value) {
+            write_to_file(value);
+            var result = document.getElementById('result');
+            result.innerHTML = "";
+            for (let i = 0; i < 10; i++) {
+                result.innerHTML += "<p>" + value + "</p>";
+            }
+        }
+
+        function write_to_file(text) {
+            
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Motor de Búsqueda</h1>
+    <p for="search-for">¿Qué deseas buscar?</p>
+    <input type="search" id="search-for" name="search-for" placeholder="Buscar por...">
+    <button onclick="return search_for_this(document.getElementById('search-for').value)">Buscar</button>
+    <div id="result">
+    </div>
+</body>
